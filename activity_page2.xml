@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@drawable/page2"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ollie's tiny snowman was the best:"
+            android:layout_marginStart="80dp"
+            android:textStyle="bold"
+            android:textSize = "15dp"
+            android:textColor="#171616" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="they all agreed. Tiny black eyes"
+            android:layout_marginStart="80dp"
+            android:textStyle="bold"
+            android:textSize = "15dp"
+            android:textColor="#0C0C0C" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A funny orange nose and"
+            android:textStyle="bold"
+            android:layout_marginStart="80dp"
+            android:textSize = "15dp"
+            android:textColor="#222121" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a crooked smile. Ollie has made all"
+            android:textStyle="bold"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginStart="80dp"
+            android:textColor="#191616" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="these from bright plasticine."
+            android:textStyle="bold"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginStart="80dp"
+            android:textColor="#191616" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="He even got a little doll's hat"
+            android:textStyle="bold"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginStart="80dp"
+            android:textColor="#191616" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="and the tiniest scarf."
+            android:textStyle="bold"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginStart="80dp"
+            android:textColor="#191616" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="They all stood around and told Ollie"
+            android:layout_marginEnd="60dp"
+            android:textSize="15dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="That his tiny snowman was awesome."
+            android:layout_marginEnd="60dp"
+            android:textSize="15dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One of the girls looked at Ollie."
+            android:layout_marginEnd="60dp"
+            android:textSize="15dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="''so good!''  Its a pity it will melt"
+            android:layout_marginEnd="65dp"
+            android:textSize="15dp"
+            android:textColor="#1C1201"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When the winter is gone!"
+            android:layout_marginEnd="60dp"
+            android:textSize="15dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You have given me the best idea,"
+            android:layout_marginEnd="65dp"
+            android:textSize="15dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ollie laughed and then skipped"
+            android:layout_marginEnd="65dp"
+            android:textSize="15dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="into the kitchen to get some freezer bags."
+            android:layout_marginEnd="50dp"
+            android:textSize="15dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#11A0ED"
+            android:onClick="goTopage1"
+            android:text="Back"
+            android:textColor="#FFF"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/back_button"
+            android:backgroundTint="#11A0ED"
+            android:onClick="goTopage3"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
