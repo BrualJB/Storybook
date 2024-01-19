@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@drawable/page4"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ollie sometimes forget about"
+            android:layout_marginStart="80dp"
+            android:textStyle="bold"
+            android:textSize = "15dp"
+            android:textColor="#050000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="his tiny snowy snowman in"
+            android:layout_marginStart="80dp"
+            android:textStyle="bold"
+            android:textSize = "15dp"
+            android:textColor="#220202" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="the freezer -- but then he "
+            android:textStyle="bold"
+            android:layout_marginStart="80dp"
+            android:textSize = "15dp"
+            android:textColor="#1E0202" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rememered, and checked"
+            android:textStyle="bold"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginStart="80dp"
+            android:textColor="#100101" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="that he was still there."
+            android:textStyle="bold"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginStart="80dp"
+            android:textColor="#190101" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snowman only ever sees snow,"
+            android:layout_marginEnd="65dp"
+            android:textSize="15dp"
+            android:textColor="#E3DEDE"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ollie told his friends ''My snowman"
+            android:layout_marginEnd="65dp"
+            android:textSize="15dp"
+            android:textColor="#E8E1E1"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="is going to see what summer is like''"
+            android:layout_marginEnd="65dp"
+            android:textSize="15dp"
+            android:textColor="#DAD0D0"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ollie laughed out loud again."
+            android:layout_marginEnd="65dp"
+            android:textSize="15dp"
+            android:textColor="#DFD9CD"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="That was his plan:"
+            android:layout_marginEnd="60dp"
+            android:textSize="15dp"
+            android:textColor="#DFD0D0"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A summer snowman!"
+            android:layout_marginEnd="65dp"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#11A0ED"
+            android:onClick="goTopage3"
+            android:text="Back"
+            android:textColor="#FFF"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/back_button"
+            android:backgroundTint="#11A0ED"
+            android:onClick="goTopage5"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
