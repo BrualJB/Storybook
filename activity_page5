@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@drawable/page5"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ollie took out his tiny"
+            android:layout_marginStart="80dp"
+            android:textStyle="bold"
+            android:textSize = "15dp"
+            android:textColor="#D5CDCD" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="snowman to see things that"
+            android:layout_marginStart="80dp"
+            android:textStyle="bold"
+            android:textSize = "15dp"
+            android:textColor="#F3EFEF" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="he never saw in the winter snow."
+            android:textStyle="bold"
+            android:layout_marginStart="80dp"
+            android:textSize = "15dp"
+            android:textColor="#E3DBDB" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="''See, The green leaves...''"
+            android:textStyle="bold"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginStart="80dp"
+            android:textColor="#E4DDDD" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ollie held up the tiny snowman."
+            android:textStyle="bold"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginStart="80dp"
+            android:textColor="#150202" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="''In the winter, the trees have no leaves''"
+            android:textStyle="bold"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginStart="75dp"
+            android:textColor="#0C0101" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiny snowman looks around,"
+            android:layout_marginEnd="65dp"
+            android:textSize="15dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="at the blue skies, green grass,"
+            android:layout_marginEnd="65dp"
+            android:textSize="15dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="and all the things he never saw"
+            android:layout_marginEnd="65dp"
+            android:textSize="15dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or heard in the winter."
+            android:layout_marginEnd="65dp"
+            android:textSize="15dp"
+            android:textColor="#1C1201"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Children ran around in shorts."
+            android:layout_marginEnd="60dp"
+            android:textSize="15dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The grass wasn't covered in snow."
+            android:layout_marginEnd="65dp"
+            android:textSize="15dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birds Chriped, and butterflies fluttered by."
+            android:layout_marginEnd="65dp"
+            android:textSize="15dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#11A0ED"
+            android:onClick="goTopage4"
+            android:text="Back"
+            android:textColor="#FFF"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/back_button"
+            android:backgroundTint="#11A0ED"
+            android:onClick="goTopage6"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
